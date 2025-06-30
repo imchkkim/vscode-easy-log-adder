@@ -1,23 +1,43 @@
 {
     "name": "vscode-easy-log-adder",
-    "displayName": "vscode-easy-log-adder",
-    "description": "Easily add log statements for debugging.",
-    "version": "0.0.1",
+    "displayName": "Easy Log Adder",
+    "description": "A simple extension to quickly add console.log() statements for easier debugging, similar to JetBrains IDEs.",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.85.0"
     },
     "categories": [
+        "Programming Languages",
+        "Snippets",
         "Other"
     ],
-    "activationEvents": [],
+    "activationEvents": [
+        "onCommand:vscode-easy-log-adder.addEmptyLog"
+    ],
     "main": "./dist/extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "vscode-easy-log-adder.helloWorld",
-                "title": "Hello World"
+                "command": "vscode-easy-log-adder.addEmptyLog",
+                "title": "Add Empty console.log"
             }
-        ]
+        ],
+        "keybindings": [
+            {
+                "command": "vscode-easy-log-adder.addEmptyLog",
+                "key": "alt+l",
+                "mac": "cmd+l"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorTextFocus",
+                    "command": "vscode-easy-log-adder.addEmptyLog",
+                    "group": "navigation"
+                }
+            ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run package",
