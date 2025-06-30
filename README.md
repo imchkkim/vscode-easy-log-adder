@@ -35,7 +35,7 @@ You can install this extension from the Visual Studio Code Marketplace.
 
 ## Contributing
 
-Feel free to open issues or submit pull requests on [GitHub](https://https://github.com/imchkkim/vscode-easy-log-adder).
+Feel free to open issues or submit pull requests on [GitHub](https://github.com/imchkkim/vscode-easy-log-adder).
 
 ## License
 
