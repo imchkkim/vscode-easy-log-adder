@@ -35,8 +35,10 @@ You can install this extension from the Visual Studio Code Marketplace.
 
 ## Contributing
 
-Feel free to open issues or submit pull requests on [GitHub](https://github.com/your-repo-link). <!-- TODO: Replace with actual repo link -->
+Feel free to open issues or submit pull requests on [GitHub](https://https://github.com/imchkkim/vscode-easy-log-adder).
+
+## License
+
+This project is licensed under the MIT License
 
 ---
-
-**Enjoy easier debugging!**

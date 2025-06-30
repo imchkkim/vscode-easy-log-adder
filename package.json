@@ -1,7 +1,7 @@
 {
     "name": "vscode-easy-log-adder",
     "displayName": "Easy Log Adder",
-    "description": "A simple extension to quickly add console.log() statements for easier debugging, similar to JetBrains IDEs.",
+    "description": "A simple extension to quickly add console.log() statements for easier debugging.",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.85.0"
