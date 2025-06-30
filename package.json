@@ -3,6 +3,11 @@
     "displayName": "Easy Log Adder",
     "description": "A simple extension to quickly add console.log() statements for easier debugging.",
     "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imchkkim/vscode-easy-log-adder.git"
+    },
+    "license": "MIT",
     "engines": {
         "vscode": "^1.85.0"
     },
